@@ -1,0 +1,70 @@
+/* прежняя версия */
+/* .logo_ss {
+	width: 50px;
+}
+
+.task_bar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.menu-item {
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.menu-item a {
+	text-decoration: none;
+	color: #333;
+} */
+
+.logo_ss {
+	width: 50px;
+}
+
+.head {
+	display: flex;
+	align-items: center;
+}
+
+.logo,
+.head_menu {
+	margin: 0;
+	padding: 0;
+}
+
+.task_bar {
+	/* новая версия */
+	/* display: flex;
+	justify-content: center;
+	padding: 20px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.menu-item {
+	/* новая версия */
+	/* padding: 5px 10px;
+	border-radius: 5px;
+	margin: 5px; */
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.menu-item a {
+	/* новая версия */
+	/* text-decoration: none;
+	color: #333; */
+	text-decoration: none;
+	color: #333;
+}
+
+/* исправ
+исправить task-bar чтобы он был в центре а в левом углу
+посмотреть как сделать картинку лучше (мб оставлю так хазе) */
